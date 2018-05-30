@@ -177,8 +177,12 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="mytarget" name="Number" value="Select Date">
-                                        <div class="monthly" id="mycalendar2"></div>
+                                        <div class='input-group date' id='datetimepicker2'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
                                     </div>    
                                 </div>
                                 <div class="col-md-6">
@@ -308,22 +312,10 @@
         <script src="assets/js/jquery.validate.js"></script>
         <!--main js-->
         <script src="assets/js/main.js"></script>
-        <script>
-            $(window).load( function() {
-                $('#mycalendar').monthly({
-                  mode: 'event',
-                  //jsonUrl: 'events.json',
-                  //dataType: 'json'
-                  xmlUrl: 'events.xml'
-                });
-                $('#mycalendar2').monthly({
-                  mode: 'picker',
-                  target: '#mytarget',
-                  setWidth: '345px',
-                  startHidden: true,
-                  showTrigger: '#mytarget',
-                  stylePast: true,
-                  disablePast: true,
+      <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker2').datetimepicker({
+                    locale: 'in'
                 });
             });
         </script>
