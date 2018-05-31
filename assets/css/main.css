@@ -19,7 +19,7 @@
 15.Footer Widget css
 16.Footer area css
 17.Scroll top css
-18.medipath banner section css
+18.chanre banner section css
 19.service-details.html css
 20.gallery.html css
 21.404.html css
@@ -76,7 +76,7 @@ section{
     opacity: 0.9;
     overflow: hidden;
 }
-.medipath-overlay{
+.chanre-overlay{
     position: absolute;
     left: 0;
     top: 0;
@@ -88,18 +88,18 @@ section{
 .section-padding{
     padding: 30px 0px;
 }
-.medipath-title{
+.chanre-title{
     margin-bottom: 60px;
 }
-.medipath-title h2{
+.chanre-title h2{
     font-weight: 600;
     text-transform: uppercase;
     color: #333;
 }
-.medipath-title p{
+.chanre-title p{
     padding: 0 24%;
 }
-.medipath-btn {
+.chanre-btn {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -117,7 +117,7 @@ section{
     background: transparent;
     transition: .3s;
 }
-.medipath-btn:before{
+.chanre-btn:before{
     content: '';
     width: 100%;
     height: 100%;
@@ -129,7 +129,7 @@ section{
     z-index: -1;
     transition: .3s;
 }
-.medipath-btn:after{
+.chanre-btn:after{
     content: '';
     width: 100%;
     height: 100%;
@@ -141,14 +141,14 @@ section{
     transition: .3s;
     transition-delay: .2s;
 }
-.medipath-btn:hover{
+.chanre-btn:hover{
     color: #fff;
 }
-.medipath-btn:hover:before{
+.chanre-btn:hover:before{
     top: 0;
     border: #39B5D0;
 }
-.medipath-btn:hover:after{
+.chanre-btn:hover:after{
     top: 0;
     border: #39B5D0;
 }
@@ -562,11 +562,11 @@ header.sticky {
 /*------------------------------
    8.Start about section css
 ------------------------------*/
-.medipath-details .medipath-Welcome h2{
+.chanre-details .chanre-Welcome h2{
     font-weight: 600;
     margin-bottom: 15px;
 }
-.medipath-details .medipath-Welcome h5{
+.chanre-details .chanre-Welcome h5{
     margin-bottom: 10px;
     color: #39B5D0;
 }
@@ -725,10 +725,10 @@ header.sticky {
 .tab-details p{
     margin-bottom: 15px;
 }
-.tab-details .medipath-btn{
+.tab-details .chanre-btn{
     margin-top: 20px;
 }
-.tab-details .medipath-btn:hover{
+.tab-details .chanre-btn:hover{
     z-index: 337;
 }
 /*--------------------------------
@@ -984,7 +984,7 @@ header.sticky {
 .subcribe .form-control{
     position: relative;
 }
-.subcribe .medipath-btn {
+.subcribe .chanre-btn {
     position: absolute;
     width: 60px;
     border-radius: 0;
@@ -994,7 +994,7 @@ header.sticky {
     bottom: 16px;
     right: 15px;
 }
-.subcribe .medipath-btn:hover{
+.subcribe .chanre-btn:hover{
     z-index: 337;
 }
 /*--------------------------------
@@ -1046,31 +1046,31 @@ header.sticky {
 --------------------------------*/
 
 /*--------------------------------
-  18.Start medipath-banner section css
+  18.Start chanre-banner section css
 --------------------------------*/
-.medipath-banner{
+.chanre-banner{
     position: relative;
 }
-.medipath-banner-header{
+.chanre-banner-header{
     margin-bottom: 50px;
     margin-top: 150px;
     color: #fff;
     text-align: center;
 }
-.medipath-banner-header .breadcrumb{
+.chanre-banner-header .breadcrumb{
     background: transparent;
     padding: 0px;
 }
-.medipath-banner-header .breadcrumb li a{
+.chanre-banner-header .breadcrumb li a{
     color: #fff;
     text-transform: uppercase;
 }
-.medipath-banner-header .breadcrumb > .active {
+.chanre-banner-header .breadcrumb > .active {
     color: #fff;
     text-transform: capitalize;
 }
 /*--------------------------------
-  End medipath-banner section css
+  End chanre-banner section css
 --------------------------------*/
 
 /*--------------------------------
@@ -1143,7 +1143,7 @@ header.sticky {
 .portfolio-button{
     margin-bottom: 40px;
 }
-.portfolio-button .medipath-btn{
+.portfolio-button .chanre-btn{
     display: inline-block;
     margin-right: 10px;
 }
@@ -1341,7 +1341,7 @@ header.sticky {
     position: relative;
     margin-bottom: 40px;
 }
-.search-box .medipath-btn {
+.search-box .chanre-btn {
     position: absolute;
     width: 60px;
     border-radius: 0;
@@ -1351,7 +1351,7 @@ header.sticky {
     bottom: 1px;
     right: 0px;
 }
-.search-box .medipath-btn:hover{
+.search-box .chanre-btn:hover{
     z-index: 337;
 }
 .sidebar-title {
@@ -1647,12 +1647,12 @@ ul.categorie-icon {
   End Index.html css
 --------------------------------*/
 /*about-us.html*/
-.medipath-title>h1{
+.chanre-title>h1{
    color: red;
    font-weight: 800;
    margin-top: 20px;
 }
-.medipath-content{
+.chanre-content{
    margin: 25px 0px 25px 0px;
 }
 
